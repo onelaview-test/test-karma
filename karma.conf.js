@@ -15,6 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
+      {pattern: 'app/my-element-1.html', nocache: true},
       {pattern: 'app/my-element-2.html', nocache: true},
       {pattern: 'tests/my-element-1.spec.js', nocache: true}
     ],
